@@ -1,7 +1,7 @@
 Version = "indev-0.9.1"
 Startup = tick()
 
-local repo = 'https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/'
+local repo = 'https://github.com/TERIRepoBackups/LinoriaLib/raw/refs/heads/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
